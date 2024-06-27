@@ -1,0 +1,77 @@
+.fContainer h1{
+    font-size: 7vw;
+    transition: font-size 0.3s ease, letter-spacing 0.3s ease;
+}
+.fContainer h1:hover{
+    cursor: default;
+    letter-spacing: 4px;
+}
+.fContainer p{
+
+}
+.fContainer{
+    text-align: center;
+}
+.sContainer{
+    width: 22vw;
+    border: 2px solid grey;
+    background-color: white;
+    text-align: center;
+    height: 77vh;
+}
+
+.sContainer .btn {
+    margin-top: 5px;
+    background-color: black;
+    color:white;
+    border: none;
+    padding: 8px 130px;
+}
+.sContainer .btn{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+}
+.sContainer .btn:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+#btnSContainer:active{
+    background-color: black;
+}
+
+#chatIcn{
+    width: 2vw;
+}
+
+#chatPara{
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: 400;
+}
+.chats{
+    padding: 29px 0px;
+    text-align: left;
+    overflow-y: auto;
+    max-height: 57vh;
+}
+.chats ul{
+    list-style: none;
+}
+.chats li{
+    font-size: 21px;
+    background-color: #8080803d;
+    margin: 15px 0px;
+    padding: 7px 0px;
+    border-radius: 5px;
+    text-align: center;
+    transition: font-size 0.3s ease;
+}
+.chats li:hover{
+    font-size: 25px;
+}
+.chats li a{
+    text-decoration: none;
+    color: black;
+}
