@@ -1,3 +1,7 @@
+html, body {
+    overflow: hidden; 
+    height: 100%; 
+}
 .fContainer h1{
     font-size: 7vw;
     transition: font-size 0.3s ease, letter-spacing 0.3s ease;
@@ -74,4 +78,77 @@
 .chats li a{
     text-decoration: none;
     color: black;
+}
+.mainContainer{
+    /* border: 1px solid black; */
+    position: relative;
+    height: 68vh;
+    top: -39vw;
+    width: 75vw;
+    right: -23vw;
+    background-color: white;
+    
+}
+.typeBox{
+    position: relative;
+    width: 75vw;
+    top: -38vw;
+    right: -23vw;
+    text-align: left;
+}
+#takeText{
+    text-align: left;
+    font-size: 21px;
+    border-radius: 7px;
+    border: 1px solid grey;
+    height: 6vh;
+    width: 68vw;
+    transition: border-color 0.3s ease;
+}
+#takeText:active{
+    border: 1px solid grey;
+}
+#AddImageBtn{
+
+}
+#SendMessageBtn{
+
+}
+#AddImageIcon{
+    width: 2vw;
+}
+#SendMessageIcon{
+    width: 2vw;
+}
+.BtnsMain{
+    position: relative;
+    top: -6px;
+    background-color: white;
+    border: none;
+    width: 3vw;
+    left: 2px;
+}
+.BtnsMain:hover{
+    background-color: rgba(231, 231, 231, 0.959);
+    border-radius: 8px;
+}
+.botSide{
+    width: 75vw;
+    border: 1px solid black;
+    max-height: 68vh;
+    height: 68vh;
+    overflow-y: auto;
+}
+.botSide p{
+    background-color: #8080803d;
+    padding: 5px 0px;
+    display: block;
+    border-radius: 7px;
+    font-weight: 400;
+    position: relative;
+    width: 72vw;
+    right: -1vw;
+}
+.botSide h5{
+    text-align: center;
 }
